@@ -13,7 +13,7 @@ All is configured to run in VS Code, with some goodies.
   - test
   - check-all
   - fresh-install
-
+- GitHub action to check lint, ts, tests and to run the build
 ## Nota bene
 
 All pages must end with a .page.tsx extension.
