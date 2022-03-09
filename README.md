@@ -13,10 +13,15 @@ All is configured to run in VS Code, with some goodies.
   - test
   - check-all
   - fresh-install
-- GitHub action to check lint, ts, tests and to run the build
+- GitHub action:
+  - CI : to check lint, ts, tests and to run the build
+  - release : to make a new release after each commit beggining with feat: or fix: (see conventional commit)
 ## Nota bene
 
 All pages must end with a .page.tsx extension.
 All api must end with a .api.ts extension.
 
 This enables to have other files in pages or api, which are note page or api endpoint, to be used as utilities or test and leverage colocation.
+
+
+
