@@ -23,5 +23,19 @@ All api must end with a .api.ts extension.
 
 This enables to have other files in pages or api, which are note page or api endpoint, to be used as utilities or test and leverage colocation.
 
+## Usage
+
+```
+yarn create next-app --example https://github.com/pom421/next-ts-eslint-starter my-app
+cd my-app
+yarn 
+yarn dev  
+```
+
+Puis en prod : 
+```
+yarn build
+yarn start // yarn export for a static site only
+```
 
 
