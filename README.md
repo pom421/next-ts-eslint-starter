@@ -1,4 +1,4 @@
-This is an [Next.js](https://nextjs.org/) opinionated starter with ESLint, Prettier, Typescript, Jest, testing-libray enabled.
+This is an [Next.js](https://nextjs.org/) opinionated starter with ESLint, Prettier, Typescript, Jest, testing-libray already configured out of the box.
 All is configured to run in VS Code, with some goodies.
 
 - absolute imports managed by VS Code, Next and Jest
@@ -30,11 +30,11 @@ For dev :
 ```
 yarn create next-app --example https://github.com/pom421/next-ts-eslint-starter my-app
 cd my-app
-yarn 
-yarn dev  
+yarn
+yarn dev
 ```
 
-For prod : 
+For prod :
 
 ```
 yarn build
