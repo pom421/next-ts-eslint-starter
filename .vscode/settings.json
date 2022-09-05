@@ -1,15 +1,41 @@
 {
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#ff6d6d" // Change this color!
-    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.preferences.importModuleSpecifier": "project-relative",
     "editor.codeActionsOnSave": {
         "source.organizeImports": true,
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": true,
     },
-    "editor.formatOnSave": false,
-    "files.exclude": {
-        "**/.history": true,
-        "**/.next": true,
-        "**/node_modules": true,
-    }
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "files.associations": {
+        ".env*": "dotenv",
+    },
+    "vsicons.associations.files": [
+        {
+            "icon": "tsconfig",
+            "extensions": [
+                "tsconfig.build.json",
+                "tsconfig.paths.json",
+            ],
+            "filename": true
+        },
+        {
+            "icon": "todo",
+            "extensions": [
+                "TODO.md",
+            ],
+            "filename": true
+        },
+        {
+            "icon": "docker",
+            "extensions": [
+                "docker-compose.build.yml",
+            ],
+            "filename": true
+        },
+    ]
 }
